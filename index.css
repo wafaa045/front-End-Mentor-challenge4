@@ -1,0 +1,215 @@
+
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box;}
+.parent_section{ display: flex; 
+
+background-color: hsl(270, 17%, 98%)
+}
+.container-section{ display: flex;}
+.frist_section { background-color:hsl(264, 100%, 61%);
+width:70%;
+height:73em;
+border-radius: 0 0 150px 150px; 
+
+} 
+/* ////////////// */
+.sec_section{ padding: 15px 15px 40px 15px ; 
+    background-color: #ffff; 
+    height:58em;
+    border-radius:30px;
+    width: 860px; 
+    position: relative;
+    right: 60px;
+    top:110px; 
+  }
+    
+    
+.perpa_div{  background: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    border-top-left-radius:25px ;
+    border-top-right-radius:25px ;  }
+
+.perpa_div1{ background-color: #ffff; 
+width:250px;
+height:40px;
+margin-left:25%;
+border-radius:15px;}
+.perpa_div2{ display: flex; 
+    justify-content: space-between; }
+
+ 
+.personalImg{ 
+    display: flex; 
+    padding:15px 0px;
+   }
+.personalImg i{ 
+        margin:30px 0px 0px 10px;
+        font-size:30px;}
+.personalImg img{ width: 90px;
+    border-radius: 50%;
+    border: 3px #ffff solid;
+    margin-left: 6px; }
+    
+.personalImg div{ margin: 20px 0px 0px 6px;}
+.listIcon i{ margin:40px 20px;
+    font-size:30px; }
+/* ////////////////////////////// */
+
+.gray_div{ background-color: hsl(270, 20%, 96%); 
+    border-bottom-left-radius:25px ;
+    border-bottom-right-radius:25px ;
+    padding:3px 20px;
+    
+}
+.gray_div_1 p{color:hsl(264, 100%, 61%); ;
+background-color: hsl(265, 14%, 84%);
+border-radius: 10px;
+height:70px;
+padding:10px 30px 10px 10px;
+width:250px ;
+margin-top: 10px;
+
+
+}
+
+.right_div{
+    display: flex;
+   
+    flex-direction: column;
+    align-items: flex-end;
+    margin:30px 0px;
+   
+   }
+  
+
+.img_div img{ width: 80px;
+
+border-radius: 10px;}
+.right_div p{ background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    color:black ; }
+.rightDiv_p1{
+    
+    height:66px;
+    padding:10px 30px 10px 10px;
+    width:250px ;
+    margin-top: 10px;
+    }
+
+.rightDiv_p2{   
+    width:180px;
+    padding:15px 30px 10px 10px;
+    height:50px;
+    margin-top:10px;
+}
+
+.gray_div_2 p{ color:black ;
+    background-color: hsl(265, 14%, 84%);
+    border-radius: 10px;
+    height:80px;
+    padding:10px 30px 10px 10px;
+    width:250px ;
+    margin-top: 10px;
+    }
+    .gray_div_3 div{  
+        color:#ffff;
+        font-size: 16px;
+        background: linear-gradient(to right, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+        border-radius: 10px; 
+        height:50px;
+        padding:15px 30px 10px 10px;
+        width:300px ;
+        margin-top:10px;}
+         .gray_div_3 span{ margin-left: 60px;
+        font-size: 20px;}
+        .redio_div2 span{ margin-left:80px;}
+         .gray_div_3  input{  
+        background-color: hsl(289, 100%, 72%); 
+        height: 45%;
+        font-size: 16px;
+    }
+        
+        .gray_div_4 input{ border-radius:18px;
+            height:40px;
+            padding:10px 30px 10px 10px;
+            width:99% ;
+            margin-top: 20px;
+            color:hsl(206, 6%, 79%);
+
+
+        }
+       .input_icon i{ position: relative; 
+    top:-35px;
+    left: 400px;
+    font-size:30px;
+    
+    }
+
+.three_section{ 
+     display: flex; 
+     align-items: center;}
+.ther_div{
+    padding: 20px 0px;
+    height:30em;
+    margin: 40px;  }
+
+
+.three_section h3{color: hsl(271, 36%, 24%);
+font-size: 30px;}
+.three_section p{ color: hsl(270, 7%, 64%);
+    font-size: 16px;
+}
+@media (max-width: 800px) { 
+
+    .parent_section{ 
+        display: flex;
+        flex-direction: column; }
+        
+        .input_icon i{
+           position: relative; 
+            top:-35px;
+            left: 350px;
+            font-size:30px;
+            
+            }
+        .three_section{ 
+                text-align: center;
+            margin-top: 20px;}
+            .ther_div{
+                padding: 30px 0px;
+                height:15em;
+                margin:40px 40px 0px;  }
+            
+        .three_section h3{color: hsl(271, 36%, 24%);
+                    font-size:35px;}
+        .three_section p{ 
+                 color: hsl(270, 7%, 64%);
+                    font-size: 20px;
+                    } }
+    
+                
+      @media (max-width: 600px) {
+
+     
+
+.perpa_div1{margin-left:75px; 
+    width:200px;}
+    .personalImg img{ width:80px;
+       
+        }
+        .input_icon i{
+            position: relative; 
+             top:-35px;
+             left: 260px;
+        }  
+             
+
+
+       }
+
+/* ////////////////////////// */
+.attribution { font-size: 11px; text-align: center;
+    padding: 10px;
+    font-size:15px; }
+    .attribution a { color:  hsl(264, 100%, 61%); 
+    font-size:20px;}
